@@ -1,0 +1,393 @@
+* {
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+body {
+    max-width: 100%;
+    text-transform: uppercase;
+}
+
+/* NAVEGAÇÃO */
+
+header {
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    background-color: #2D3E50;
+    padding: 20px;
+}
+ /* LOGO */
+
+header a {
+    color: #fff;
+    float: left;
+    font-size: 1em;
+}
+
+/* LINKS */
+
+nav {
+    float: right;
+}
+
+nav ul li {
+    float: left;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li a {
+    color: #fff;
+    margin:0 10px;
+}
+
+a:hover {
+    color: #5CBD9C;
+    text-decoration: none;
+}
+
+
+/* SECTION BANNER */
+
+main {
+    background-color: #5CBD9C;
+    padding: 50px;
+}
+
+main img {
+    width: 465px;
+}
+
+main h1 {
+    font-size: 2em;
+    color: #fff;
+    margin: 10px 0;
+}
+
+main p {
+    margin: 15px 0;
+    padding: 0;
+    font-size: 1em;
+    color: #fff;
+}
+
+/* SECTION PORTFOLIO */
+
+.portfolio {
+    padding: 40px;
+}
+
+.portfolio h2 {
+    color: #353E43;
+    font-size: 1.5em;
+    margin: 5px 0;
+    text-align: center;
+}
+
+.portfolio img {
+    width: 293px;
+    border-radius: 20px;
+}
+
+.hovereffect {
+    width: 293px;
+    border-radius: 20px;
+    margin: 40px 10px;
+    background: #42b078;
+}
+
+.hovereffect img {
+    width: 293px;
+    transition: opacity 0.35s;
+}
+
+.hovereffect:hover img {
+    opacity: 0.4;
+}
+
+/* SECTION SOBRE */
+
+.sobre {
+    background-color: #5CBD9C;
+    padding: 40px;
+}
+
+.sobre h2 {
+    color: #fff;
+    font-size: 1.5em;
+}
+
+.sobre p {
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    font-size: 0.8em;
+    padding: 30px;
+    text-align: justify;
+}
+
+.esquerda {
+    float: left;
+    display: inline;
+    width: 50%;
+    margin: 5px 0;
+}
+
+.direita {
+    float: right;
+    display: inline;
+    width: 50%;
+    margin: 5px 0;
+}
+
+.sobre button {
+    width: 150px;
+    background-color: #ffffff00;
+    padding: 10px;
+    border: 1px solid #fff;
+    border-radius: 20px;
+}
+
+.sobre button a {
+    color: #fff;
+    font-size: 1.1em;
+}
+
+.sobre button a:hover {
+    color: #2D3E50;
+}
+
+/* SECTION CONTATO */
+
+.contato {
+    padding: 40px;
+    font-size: 0.8em;
+    margin-top: 10px;
+}
+
+.contato h2 {
+    color: 353E43;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+form {
+    margin: 0 auto;
+    padding-top: 15px;
+    width: 600px;
+}
+
+textarea {
+    resize: none;
+}
+
+span {
+    margin: 0 -10px;
+}
+
+.contato button {
+    background-color: #5CBD9C;
+    border: none;
+    border-radius: 18px;
+}
+
+.contato button a{
+    color: #fff;
+}
+
+/* SECTION FOOTER */
+
+footer {
+    background-color: #2D3E50;
+    height: 255px;
+    padding: 20px;
+    margin-top: 15px;
+    color: #fff;
+}
+
+footer h6 {
+    margin-top: 40px;
+}
+
+footer p {
+    font-size: 0.7em;
+}
+
+footer img {
+    width: 40px;
+    margin: 5px;
+}
+
+.copy {
+    color: #fff;
+    background-color: #1B252F;
+}
+
+.copy p {
+    padding: 30px;
+    font-size: 0.6em;
+}
+
+
+/* DETALHE ESTRELA */
+
+.estrela {
+    width: 31px;
+    height: 31px;
+}
+
+
+
+
+
+
+/* AREA RESPONSIVA */
+
+@media (max-width: 372px) {
+
+
+header a {
+    color: #16b14a;
+    font-size: 1em;
+    margin: 0 60px;
+}
+
+/* LINKS */
+
+nav ul li {
+    margin: 0 20px;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li a {
+    color: #ffffff;
+}
+
+a:hover {
+    color: #5CBD9C;
+    text-decoration: none;
+}
+
+/* SECTION BANNER */
+
+main {
+    background-color: #5CBD9C;
+    padding: 50px;
+}
+
+main img {
+    width: 300px;
+    margin: 0 -30px;
+}
+
+main h1 {
+    font-size: 2em;
+    color: #fff;
+}
+
+main p {
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
+    color: #fff;
+}
+
+
+/* SECTION PORTFOLIO */
+
+.portfolio h2 {
+    color: #353E43;
+    font-size: 1.5em;
+    margin: 5px 0;
+    text-align: center;
+}
+
+/* SECTION CONTATO */
+
+.contato {
+    padding: 20px;
+    font-size: 0.8em;
+    margin-top: 10px;
+}
+
+.contato h2 {
+    color: 353E43;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+form {
+    margin: 0 auto;
+    padding-top: 0;
+    width: 300px;
+}
+
+textarea {
+    resize: none;
+}
+
+span {
+    margin: 0 -10px;
+}
+
+.contato button {
+    background-color: #5CBD9C;
+    border: none;
+    border-radius: 18px;
+}
+
+.contato button a {
+    color: #fff;
+}
+
+/* SECTION FOOTER */
+
+footer {
+    background-color: #2D3E50;
+    height: 250px;
+    padding: 5px;
+    margin-top: 4px;
+    color: #fff;
+}
+
+footer h6 {
+    margin-top: 2px;
+}
+
+footer p {
+    font-size: 0.4em;
+}
+
+footer img {
+    width: 18px;
+    margin: 5px;
+}
+
+.copy {
+    color: #fff;
+    background-color: #1B252F;
+}
+
+.copy p {
+    padding: 40px;
+    font-size: 0.4em;
+}
+
+
+/* DETALHE ESTRELA */
+
+.estrela {
+    width: 21px;
+    height: 21px;
+}
+
+

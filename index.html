@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilo.css">
+
+    <title>Start Bootstrap</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="container col-sm-12 cold-md-12 col-lg-12">
+            <a href="index.html">Start Bootstrap</a>
+            <nav>
+                <ul>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#contato">Contato</a></li>
+            
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="banner">
+        <div class="container">
+            <div class="row">
+                <div class=" cold-sm-12 col-md-12 col-lg-12 text-center">
+                    <img src="imagens/avatar.png" alt="avatar">
+
+                    <h1>Start Bootstrap</h1>
+
+                    <img src="imagens/estrela.png" alt="ícone estrela" class="estrela">
+
+                    <p>Design Gráfico - Web Design - Ilustrador</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    
+    <section class="container portfolio">
+        <div class="container">
+
+            <h2 id="portfolio">Portfolio</h2>
+
+                <div class="row">
+                    <div class="col sm-12 col-md-6 col-lg-4">
+                        <div class="hovereffect">
+                            <a href="#"><img class="img-responsive" src="imagens/cabin.png" alt="Cabana"></a>
+                        </div>
+                    </div>
+                    <div class="col sm-12 col-md-6 col-lg-4">
+                        <div class="hovereffect">
+                            <a href="#"><img class="img-responsive" src="imagens/cake.png" alt="Bolo"></a>
+                        </div>
+                    </div>
+                    <div class="col sm-12 col-md-6 col-lg-4">
+                        <div class="hovereffect">
+                            <a href="#"><img class="img-responsive" src="imagens/circus.png" alt="Circo"></a>
+                        </div>
+                    </div>
+
+                    <div class="col sm-12 col-md-6 col-lg-4">
+                        <div class="hovereffect">
+                            <a href="#"><img class="img-responsive" src="imagens/game.png" alt="Game"></a>
+                        </div>
+                    </div>
+                    <div class="col sm-12 col-md-6 col-lg-4">
+                        <div class="hovereffect">
+                            <a href="#"><img class="img-responsive" src="imagens/safe.png" alt="Cofre"></a>
+                        </div>
+                    </div>
+                    <div class="col sm-12 col-md-6 col-lg-4">
+                        <div class="hovereffect">
+                            <a href="#"><img class="img-responsive" src="imagens/submarine.png" alt="Submarino"></a>
+                        </div>
+                    </div>
+        </div>
+    </div>
+    </section>
+
+
+        <section class="container sobre">
+                <div class="row">
+                    <div class=" col-sm-12 cold-md-12 col-lg-12 text-center">
+        
+                        <h2 id="sobre">Sobre</h2>
+
+                        <div class="row">
+                            <div class=" col-sm-12 col-md-12 col-lg-12 text-center">
+                                <img src="imagens/estrela.png" alt="ícone estrela" class="estrela">
+                            </div></div>
+                            
+
+                        <article class="esquerda">
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                    Hic ipsam harum quod. Blanditiis, mollitia. Distinctio,
+                                    autem! Assumenda, maxime error. Laudantium at dignissimos
+                                    totam ipsa excepturi repudiandae incidunt voluptas possimus.
+                                    Quisquam?</p>
+                        </article>
+                        
+
+                        <article class="direita"> 
+                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        Hic ipsam harum quod. Blanditiis, mollitia. Distinctio,
+                                        autem! Assumenda, maxime error. Laudantium at dignissimos
+                                        totam ipsa excepturi repudiandae incidunt voluptas possimus.
+                                        Quisquam?</p>
+                        </article>
+
+                        <button type="button" class="btn btn-primary"><a href="#baixar">Baixar</a></button>
+
+                        </div>
+                    </div>
+        </section>
+
+
+    <section class="container contato">
+        
+        <h2 id="contato">Contato</h2>
+
+        <div class="row">
+            <div class=" col-sm-12 col-md-12 col-lg-12 text-center">
+                <img src="imagens/estrela-preta.png" alt="ícone estrela" class="estrela">
+            </div>
+        </div>
+
+        
+    
+        <form action="index.html" method="get">
+
+            <div class="form-group row" >
+                <label for="nome" class="col-md-2 col-form-label">Nome*</label><br>
+                <div class="col-md-10">
+                <input type="text" name="nome" id="nome" placeholder="Nome" required class="form-control"><br>
+            </div>
+            </div>
+    
+            
+    
+            <div class="form-group row">
+                <label for="email" class="col-md-2 col-form-label">Email*</label><br>
+                <div class="col-md-10">
+                <input type="text" name="email" id="email" placeholder="email@email.com" required class="form-control"><br>
+            </div>
+            </div>
+
+
+            <div class="form-group row">
+                <label for="tel" class="col-md-2 col-form-label">Celular*</label><br>
+                <div class="col-md-10"><input type="tel" name="celular" id="celular" placeholder="(xx) xxxxx-xxxx" required class="form-control" maxlength="11"><br>
+            </div>
+            </div>
+
+            <label for="mensagem" class="col-md-4 col-form-label"><span>Mensagem</span></label><br>
+            <textarea name="mensagem" id="" cols="82" rows="5" class="form-control"></textarea><br>
+    
+            <button type="submit" class="btn btn-primary btn-md">Enviar</button>
+    
+        </form>
+    </section>
+
+    <footer>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md text-center">
+                    <h6>Localização</h6>
+
+                    <p>Av. Dr. Cardoso de Melo, 90 <br>
+                    Vila Olímpia <br>
+                    São Paulo - SP <br>
+                    Cep: 04548-000 <br>
+                    </p>
+
+                </div>
+                <div class="col-sm-3 col-md-3 col-lg-3 text-center">
+                    <h6>Na Web</h6>
+
+                    <a href="https://www.linkedin.com" target="_blank"><img src="imagens/linkedin.png" alt="Linkedin"></a>
+                    <a href="https://www.facebook.com" target="_blank"><img src="imagens/facebook.png" alt="Facebook"></a>
+                    <a href="https://www.instagram.com" target="_blank"><img src="imagens/instagram.png" alt="Instagram"></a>
+                    <a href="https://wa.me/5511900000000" target="_blank"><img src="imagens/whatsapp.png" alt="Whatsapp"></a>
+
+                </div>
+                <div class="col-md text-center">
+                    <h6>Freelancer</h6>
+
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                        Minus laudantium aut, voluptatibus distinctio velit facere. 
+                        </p>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+    <section class="copy text-center">
+        <p>© Copyright 2019 - Todo os direitos reservados</p>
+    </section>
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
